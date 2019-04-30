@@ -1,0 +1,33 @@
+@charset "utf-8";
+/*footer*/
+.footer{
+	position: relative;
+}
+/*body*/
+.agreement{
+	padding: 40px 80px;
+	color: #333333;
+	font-size: 16px;
+}
+.agreement h2{
+	font-size: 28px;
+	line-height: 50px;
+	width: 100%;
+	border-bottom: 1px solid #eeeeee;
+	color: #333333;
+}
+.agreement p{
+	line-height: 24px;
+	margin: 17px 0;
+	color: #333333;
+}
+.agreement ul{
+	list-style: disc outside;
+	margin-left: 32px;
+}
+.agreement ul li{
+	
+}
+.agreement ul ul{
+	list-style: circle;
+}

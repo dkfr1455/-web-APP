@@ -1,0 +1,200 @@
+@charset "utf-8";
+html{
+	height: 100%;
+}
+
+.regiter{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+}
+.regiter .regiter_wrap{
+	width: 1200px;
+	margin: 0px auto; 
+	padding: 100px 0;
+}
+.regiter_wrap .regiter_box{
+	width: 300px;
+	margin:0 auto; 
+	color: rgba(255,255,255,.43);
+}
+.regiter_box .regiter_hd{
+	height: 36px;
+	line-height: 36px;
+}
+.regiter_box .regiter_hd h6{
+	font-size: 24px;
+	color: #fff;
+	display: inline-block;
+}
+.regiter_box .regiter_hd div{
+	float: right;
+	cursor: pointer;
+}
+#user_select span{
+	display: inline-block;
+	line-height: 20px;
+	margin-left: 8px;
+}
+#user_select span.active{
+	padding: 0 8px;
+	color: #FFFFFF;
+	border-radius: 10px;
+	background: #3075ee;
+}
+.regiter_box .regiter_bd{
+	margin-top: 30px;
+} 
+.regiter_bd .regiter_bd_line{
+	margin-bottom: 25px;
+	width: 100%;
+}
+.regiter_bd_line input{
+	width: 100%;
+	border-bottom: 1px solid rgba(255,255,255,.43);
+	line-height: 35px;
+	background: none;
+	color: #fff;
+	font-size: 16px;
+}
+.regiter_bd_line input:focus{
+	border-bottom: 1px solid #4e88f0;
+}
+.regiter_bd_line .none{
+	display: none;
+}
+.regiter_bd_line .ecode{
+	width: 186px;
+}
+.regiter_bd_line button{
+	width: 100%;
+	height: 40px;
+	border: 1px solid #3075ee;
+	border-radius: 18px;
+}
+.regiter_bd_line button:disabled{
+	background: none;
+	color: #3075ee;
+	cursor: not-allowed;
+}
+.regiter_bd_line button:enabled{
+	background: #3075ee;
+	color: #fff;
+	cursor: pointer;	
+}
+.regiter_bd_line button:focus{
+	outline: none;
+}
+
+.regiter_bd_line .ver_code{
+	display: inline-block;
+	width: 110px;
+}
+.regiter_bd_line input.input_err{
+	border-bottom: 1px solid #f04134;
+}
+.regiter_bd_line .tip_err{
+	color: #f04134;
+	height: 18px;
+	line-height: 18px;
+	display: none;
+}
+.regiter_bd_line .tip{
+	color: #4e88f0;
+	height: 18px;
+	line-height: 18px;
+	display: none;
+	margin-top: 10px;
+}
+
+.regiter_bd_line #accept{
+	display: none;
+}
+.regiter_bd_line .checkbox{
+	border: 1px solid #4e88f0;
+	width: 12px;
+	height: 12px;
+	display: inline-block;
+	line-height: 12px;
+	text-align: center;
+	color: #3075ee;
+	border-radius: 2px;
+	float: left;
+	margin-top: 2px;
+	cursor: pointer;
+}
+.regiter_bd_line .checkbox_inf{
+	display: inline-block;
+	margin-left: 8px;
+	width: 278px;
+	float: left;
+	line-height: 18px;
+	cursor: pointer;
+	color: #FFFFFF;
+}
+.regiter_bd_line .checkbox_inf a{
+	color: #4e88f0;
+}
+.regiter_bd_line .checkbox_inf a:hover{
+	text-decoration: underline;
+}
+.regiter_err {
+	color: #f04134;
+	font-size: 14px;
+	text-align: center;
+}
+/*.regiter_tip{
+	position: absolute;
+	width: 300px;
+	height: 200px;
+	border: 1px solid #ccc;
+	top: 0;
+	bottom: 0;	
+	left: 0;
+	right: 0;
+	margin: auto;
+	background: rgba(255,255,255,0.5);
+	
+}*/
+
+/*background*/
+.background .bg{
+	animation: rotate 8s linear infinite;
+	position: absolute;
+	border-radius: 50%;
+	opacity: 0.3;
+	filter:Alpha(opacity=30);
+}
+.background .bg_1{
+	top: 150px;
+	left: 66px;
+	background-image: linear-gradient(90deg,#3075ef,#fff);
+	width: 195px;
+	height: 195px;
+}
+.background .bg_2{
+	top: 250px;
+	left: 30px;
+	background-image: linear-gradient(90deg,#ebebeb,#4a4a4a);;
+	width: 495px;
+	height: 495px;
+}
+.background .bg_3{
+	top: 305px;
+	right: 235px;
+	background-image: linear-gradient(90deg,#fff,#3075ef);
+	width: 85px;
+	height: 85px;
+}
+.background .bg_4{
+	top: 28px;
+	right: -88px;
+	background-image: linear-gradient(90deg,#545454,#efefef);
+	width: 395px;
+	height: 395px;
+}
+@keyframes rotate{
+	0%{transform: rotate(0);}
+	100%{transform: rotate(360deg);}
+}

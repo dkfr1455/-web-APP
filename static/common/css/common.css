@@ -1,0 +1,263 @@
+@charset "utf-8";
+
+
+body{
+	background-image: linear-gradient(90deg,#041636,#0b2758);
+	background-color: #041636;
+	height: 100%;
+}
+
+/*header*/
+.header{
+	width: 100%;
+	position: relative;
+	z-index: 99;
+}
+.header_wrap{
+ 	border-bottom: 1px solid rgba(255,255,255,.1);;
+}
+.header_nav, .header_bd{
+	width: 1180px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+.header_wrap .header_nav{
+	color: rgba(255,255,255,.43);	
+	height: 29px;
+	
+	line-height: 29px;
+}
+.header_nav a{
+	color: rgba(255,255,255,.43);
+}
+.header_nav h2{
+	font-size: 12px;
+}
+.header_nav .arrows_inf{
+	position: relative;
+}
+.header_nav .arrows.iconfont{
+	display: inline-block;
+	font-size: 8px;
+	margin: 0 10px;
+	
+}
+.header_nav .drop_box{
+	padding: 8px 0;
+	background: #fff;
+	border-radius: 4px;
+	display: none;
+	position: absolute;
+	top: 29px;
+	right: 0;
+	cursor: pointer;
+}
+
+.header_nav .drop_box_f:hover{
+	display: inline-block;
+}
+.header_nav .drop_box_f:hover>.drop_box{
+	display: inline-block;
+}
+
+.header_nav .drop_box a{
+	color: #666666;
+}
+.header_nav .drop_box li{
+	box-sizing: border-box;
+	width: 110px;
+	padding: 8px 16px;
+	cursor: pointer;
+	position: relative;
+}
+.header_nav .drop_box li:hover{
+	background: #f1f5ff;
+}
+.header_nav .drop_box li:hover a{
+	color: #5795f1;
+}
+.header_nav .drop_box .drop_box{
+	position: absolute;
+	top: 0;
+	left: -172px;
+	width: 140px;
+	padding: 16px;
+	color: #666666;
+	display: none;
+	cursor: pointer;
+}
+.header_nav .drop_box .drop_box img{
+	display: block;
+	margin: 5px auto;
+	width: 70px;
+	height: 70px;
+}
+.header_nav .drop_box .drop_box p{
+	line-height: 18px;
+	margin-top: 12px;
+}
+.header_nav .header_nav_l{
+	float: left;
+}
+
+.header_nav_l ul>li{
+	float: left;
+	padding: 0 5px;
+	
+}
+
+.header_nav_l .uneed{
+	margin-right: 26px;
+	padding: 0;
+}
+
+.header_nav .header_nav_r{
+	float: right;
+}
+.header_nav_r ul>li{
+	float: left;
+	margin-left: 10px;
+}
+.header_nav_r .notice{
+	padding: 0;
+	margin-left: 20px;
+	position: relative;
+}
+
+.header_nav_r .notice .new_notice{
+	display: block;
+	position: absolute;
+	height: 6px;
+	width: 6px;
+	border-radius: 50%;
+	background: #ff6e00;
+	top:6px;
+	right: 0;
+}
+.header_nav .notice .drop_box{
+	width: 360px;
+	padding: 7px 16px 0;
+	color: #a0aabe;
+}
+.notice .drop_box .border{
+	border-bottom: 1px solid #e9e9e9;
+}
+.notice .drop_box .notice_hd{
+	line-height: 31px;
+}
+.notice .drop_box .notice_bd{
+	padding: 5px 0;
+}
+.notice .drop_box .notice_bd a{
+	line-height: 21px;
+	color: #000000;
+}
+
+
+/*.drop_box a.notice_more {
+	display: block;
+	color: #5795f1;
+	line-height: 46px;
+	height: 46px;
+	margin: 0 auto;
+}*/
+.drop_box .notice_more{
+	display: inline-block;
+	width: 100%;
+	line-height: 46px;
+	height: 46px;
+	text-align: center;
+} 
+.drop_box .notice_more a{
+	color: #5795f1;
+	
+}
+
+.header .header_bd{
+	height: 59px;
+	line-height: 59px;
+	text-align: center;
+}
+.header_bd a{
+	color: #fff;
+	font-size: 15px;
+}
+.header_bd h1{
+	float: left;
+	margin-right: 48px;
+}
+.header_bd h1 a{
+	font-size: 20px;
+}
+.header_bd ul li{
+	float: left;
+}
+.header_bd ul a:hover{
+	color: #5795f1;
+}
+.header_bd .header_bd_l{
+	float: left;
+}
+.header_bd .header_bd_l li{
+	margin: 0 22px;
+}
+.header_bd .header_bd_r{
+	float: right;
+	display: inline-block;
+	line-height: 59px;
+}
+.header_bd .header_bd_r li{
+	margin: 0 2px;
+	line-height: 32px;
+	margin-top: 15px;
+}
+.header_bd .header_bd_r li a{
+	padding: 0 22px;
+	display: inline-block;
+}
+.header_bd_r .active{
+	background: rgba(255,255,255,0.2);
+	border-radius: 15px;
+}
+/*.header_bd_r a.active:hover{
+	color: #fff;
+}*/
+
+
+
+/*footer*/
+.footer{
+	position: relative;
+	background: #020f27;
+	width: 100%;
+}
+.footer .footer_wrap{
+	width: 1200px;
+	margin: 0 auto;
+}
+.footer .footer_bd{
+	padding: 20px 10px;
+}
+.footer_bd ul{
+	line-height: 20px;
+}
+.footer_bd ul li{
+	float: left;
+}
+.footer_bd ul li a{
+	font-weight: bold;
+	font-size: 14px;
+	color: rgba(255,255,255,.43);
+}
+.footer_bd ul li a:hover{
+	color: rgba(255,255,255,1);	
+}
+.footer_bd ul li span{
+	margin:0 15px;
+}
+.footer_bd p{
+	font-size: 12px;
+	line-height: 40px;
+	text-align: center;
+	color: rgba(255,255,255,.43);
+}

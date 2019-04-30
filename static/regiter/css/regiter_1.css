@@ -1,0 +1,140 @@
+@charset "utf-8";
+
+/*body*/
+.border-radius-4{
+	border-radius: 4px;
+	border: 1px solid #ddd;
+}
+.regiter{
+	margin: 20px auto;
+	width: 455px;
+	background: #fff;
+}
+.regiter h3{
+	font-weight: normal;
+	color: #333;
+	padding: 10px 15px;
+	border-bottom: 1px solid #ddd;
+	background: #f5f5f5;
+	border-radius: 4px 4px 0 0;
+}
+.regiter .regiter-box{
+	width: 320px;
+	margin: 0 auto;
+	padding: 15px 0;
+	position: relative;
+}
+.regiter .regiter-box p{
+	margin-bottom: 15px;
+	background: #fff;
+}
+.regiter .regiter-box .regiter-box-line{
+	height: 32px;
+	line-height: 32px;
+	display: flex;
+}
+.regiter-box .regiter-box-line label{
+	display: inline-block;
+	width: 38px;
+	height: 32px;
+	border: 1px solid #ddd;
+	border-right: 0;
+	background: #f5f5f5;
+	border-radius: 4px 0 0 4px;
+}
+.regiter-box .regiter-box-line input{
+	height: 32px;
+	line-height: 32px;
+	padding: 0 10px;
+	flex: auto;
+	border-radius:0 4px 4px 0;
+	border: 1px solid #ddd;
+}
+.regiter-box .regiter-box-line .input_err{
+	border:1px solid #CC0000;
+    box-shadow: -2px -2px 5px rgba(234,146,146,0.4) ;
+}
+.regiter-box p input:focus{
+	border:1px solid #66afe9;
+    outline: 0;
+    border-radius:4px;
+    box-shadow: -2px -2px 5px rgba(102,175,233,0.4) ;
+}
+.regiter-box .regiter-box-line input:focus{
+    border-radius:0 4px 4px 0;
+}
+.regiter-box-line .tip{
+	position: absolute;
+	left: 105%;
+	width: 100%;
+	font-size: 12px;
+	line-height: 16px;
+	margin-top: 12px;
+	color: #777;
+}
+.regiter-box-line .tip_err{
+	color: #c00;
+}
+.tip .level{
+	display: inline-block;
+	width: 40px;
+	margin: 1px;
+	color: #fff;
+	text-align: center;
+}
+.regiter-box-line .tip b{
+	display: inline-block;
+	border-radius: 50%;
+	text-align: center;
+	color: #fff;
+	font-weight: normal;
+	font-size: 8px;
+	width: 14px;
+	height: 14px;
+	line-height: 14px;
+}
+.tip b.right{
+	background: #3D882D;
+}
+.tip b.wrong{
+	background: #c00;
+}
+
+.weak {background: #EA9292;}
+.medium {background: #F1D93A;}
+.strong {background: #5AAC47;}
+
+
+
+
+.regiter-box b{
+	font-weight: bold;
+	color: #333333;
+}
+.regiter-box b a{
+	color: #337ab7;
+}
+.regiter-box b a:visited,.regiter-box b a:hover,.regiter-box b a:active{
+	text-decoration: underline;
+	color: #19527c;
+}
+.regiter p .submit{
+	color: #333333;
+	padding: 0 15px;
+	background: #FFFFFF;
+	height: 32px;
+	line-height: 32px;
+	margin-right: 2px;
+}
+.regiter .to-login{
+	font-size: 12px;
+	color: #5cb85c;
+	padding: 3px 7px;
+	border:1px solid #5CB85C;
+	border-radius: 3px;
+}
+.regiter .to-login:hover{
+	background: #449d44;
+	color: #fff;
+}
+

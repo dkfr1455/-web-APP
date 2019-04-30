@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>注册</title>
+		<link rel="stylesheet" type="text/css" href="../static/common/css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="../static/common/css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="../static/common/font/iconfont.css"/>
+		<link rel="stylesheet" type="text/css" href="../static/regiter/css/regiter.css"/>
+		<script src="../static/common/js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../static/regiter/js/package.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../static/regiter/js/regiter.js" type="text/javascript" charset="utf-8"></script>
+		</style>
+	</head>
+	<body>
+		<div class="header">
+			<div class="header_wrap">
+				<div class="header_nav">
+					<div class="header_nav_l">
+						<ul>
+							<li class="uneed">
+								<h2 class="arrows_inf drop_box_f">
+									<a href="/">UNEED.COM</a>
+									<b class="arrows iconfont">&#xe654;</b>
+									<ol class="drop_box">
+										<li><a href="/">UNEED.COM</a></li>
+									</ol>
+								</h2>
+							</li>
+							<li>
+								<a href="/">问题反馈</a>
+							</li>
+							<li>
+								<a href="/">......</a>
+							</li>
+						</ul>
+					</div>
+					<div class="header_nav_r">
+						<ul>
+							<li class="arrows_inf drop_box_f">
+								<a href="/">关注我们<b class="arrows iconfont">&#xe654;</b></a>
+								<ol class="drop_box">
+									<li class="drop_box_f">
+										<a href="#"><i class="iconfont">&#xe63c;</i>微信</a>
+										<div class="drop_box">
+											<img src="/" />
+											<p>微信</p>
+										</div>
+									</li>
+									<li class="drop_box_f">
+										<a href="#"><i class="iconfont">&#xe600;</i>微信群</a>
+										<div class="drop_box">
+											<img src="/" />
+											<p>微信群</p>
+										</div>
+									</li>
+								</ol>
+							</li>
+							<!--<li>
+								<a href="/">关注我们</a>
+							</li>-->
+							<!--<li class="notice drop_box_f">
+								<a class="iconfont" href="/">&#xe603;<b class="new_notice"></b></a>
+								<div class="drop_box">
+									<p class="notice_hd border">公告</p>
+									<div class="notice_bd border">
+										<p class="notice_con"><a href="#">公告内容公告内容公告内容公告内容公告内容</a></p>
+										<p class="notice_time">2019-02-21 00:00:00</p>
+									</div>
+									<div class="notice_more">
+										<a href="#">查看更多</a>
+									</div>
+								</div>
+							</li>-->
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="header_wrap">
+				<div class="header_bd">
+					<h1><a href="/">UNEED</a></h1>
+					<ul class="header_bd_l">
+						<li><a href="/">首页</a></li>
+					</ul>
+					<ul class="header_bd_r">
+						<li><a class="" href="/login">登录</a></li>
+						<li><a class="regiter_link active" href="/regiter">注册</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+			
+		<div class="regiter">
+			<div class="background">
+				<div class="bg bg_1"></div>
+				<div class="bg bg_2"></div>
+				<div class="bg bg_3"></div>
+				<div class="bg bg_4"></div>
+			</div>
+			<div class="regiter_wrap">
+				<div class="regiter_box">
+					<div class="regiter_hd">
+						<h6>注册</h6>
+						<div id="user_select">
+							<!--<span class="" id="phone_btn">手机号</span>-->
+							<span class="active" id="email_btn">邮箱</span>
+						</div>
+					</div>
+					<div class="regiter_bd">
+						<div class="regiter_bd_line">
+							<p><input type="text" id="user" placeholder="用户名"/></p>
+							<p class="tip_err"></p>
+							<p class="tip">用户名须由4~15位字母、数字和下划线组成，且开头不能是数字</p>
+						</div>
+						<div class="regiter_bd_line" id="user_verify_type">
+							<p><input type="text" id="user_verify" placeholder="邮箱"/></p>
+							<p class="tip_err"></p>
+						</div>
+						<div class="regiter_bd_line">
+							<p>
+								<input class="ecode" id="vercode" placeholder="验证码"/>
+								<button id="btn_vercode" class="ver_code" disabled="disabled">发送验证码</button>
+							</p>
+							<p class="tip_err"></p>
+						</div>
+						<div class="regiter_bd_line">
+							<p><input type="password" id="pwd" placeholder="密码"/></p>
+							<p class="tip_err"></p>
+						</div>
+						<div class="regiter_bd_line">
+							<p><input type="password" id="re_pwd" placeholder="确认密码"/></p>
+							<p class="tip_err"></p>
+						</div>
+						<div class="regiter_bd_line clear">
+							<p>
+								<b id="checkbox" class="checkbox checkbox_selected"><span>✔</span></b>
+								<b id="checkbox_inf" class="checkbox_inf">我已阅读并同意&nbsp;<a href="/agreement" target="_blank">《用户协议》</a>&nbsp;我已阅读并同意我已阅读并同意我已阅读并同意</b>
+							</p>
+						</div>
+						<div class="regiter_bd_line regiter_err" id="regiter_err">
+							<!--密码错误-->
+						</div>
+						<div class="regiter_bd_line">
+							<button id="btn_submit" disabled="disabled">注册</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		
+		</div>
+		
+		<div class="footer">
+			<div class="footer_wrap">
+				<div class="footer_bd">
+					<!--<ul class="clear">
+						<li>
+							<a href="#">关于我们</a><span>⋅</span>
+						</li>
+						<li>
+							<a href="#">关于我们</a><span>⋅</span>
+						</li>
+						<li>
+							<a href="#">关于我们</a>
+						</li>
+					</ul>-->
+					<p>© 2018 - ∞  </p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+<script type="text/javascript">
+	
+</script>
